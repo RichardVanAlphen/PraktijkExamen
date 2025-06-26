@@ -171,10 +171,13 @@ h1 {
 }
 #datepicker {
     width: auto;
+    padding: auto;
 }
 #auteurInput {
     width: 500px;
     border-radius: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 #articleForm input {
     margin-left: 2px;
@@ -183,6 +186,8 @@ h1 {
 #articleForm textarea {
     width: 500px;
     border-radius: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 #btnOpslaan {
     width: 100px;
@@ -273,6 +278,15 @@ input  {
     }
     #imgSaxofoon2 {
         width: 60%;
+    }
+    /*Blog Form*/
+    #auteurInput {
+        width: 100%;
+        border-radius: 5px;
+    }
+    #articleForm textarea {
+        width: 100%;
+        border-radius: 5px;
     }
     /*Contact*/
     iframe {
